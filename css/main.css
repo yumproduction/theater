@@ -693,10 +693,23 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .message .m .inputs textarea {
   grid-column: 1/3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.message .m .inputs input,
+.message .m .inputs textarea {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+  min-width: 100%;
 }
 
 .message .m .contacts {
