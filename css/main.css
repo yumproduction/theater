@@ -1246,12 +1246,7 @@ button:focus {
 }
 
 .partners .part_icons .icons img {
-  width: 100%;
-  padding-right: 20px;
-}
-
-.partners .part_icons .icons img:last-child {
-  padding-right: 0;
+  width: 80%;
 }
 
 @media (max-width: 1024px) {
